@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ES2015",
+        "jsx": "react",
+        "lib": ["ES2020", "DOM"],
+        "moduleResolution": "node",
+
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    }
+}
