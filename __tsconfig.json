@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "ES5",
+    "module": "ES2015",
+    "jsx": "react-jsx",
+    "lib": [
+      "ES2020",
+      "DOM"
+    ],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "outDir": "./public/",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}

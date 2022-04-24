@@ -1,9 +1,9 @@
 import React from 'react'
 
 export const Home = () => {
-    return (
-        <div>
-            <p>aaa</p>
-        </div>
-    )
+  return (
+    <div>
+      <p>aaa</p>
+    </div>
+  )
 }
